@@ -7,8 +7,7 @@ services:
     ports:
       - 5050:5050
     volumes:
-      - ./projects:/projects
-      - ./nginx/sites:/etc/nginx/conf.d
+      - ./nginx:/etc/nginx/conf.d
     networks:
       - backend
 
