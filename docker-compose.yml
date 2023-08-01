@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   nginx:
-    restart: aways
+    restart: unless-stopped
     image: nginx:latest
     container_name: nginx
     ports:
